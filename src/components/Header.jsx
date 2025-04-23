@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = ({blog}) => {
+const Header = ({blog = {name: "Default Blog Name"}}) => {
   return (
     <header>
         <h1>{blog.name}</h1>
